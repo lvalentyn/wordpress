@@ -1,0 +1,239 @@
+@media (max-width: 1199px) {
+.page{
+        /* section2 */
+	.waiting {
+		&_item {
+			padding: 10px;
+		}
+	} 
+	/* section3 */
+	.optimization{
+		padding: 102px 10px 107px;
+	}
+        /* section7 */
+	}
+}
+@media (max-width: 991px) {
+
+	.page{
+		/* section1 */
+		.header {
+			padding: 29px 10px 52px;
+			  &_title {
+				margin-top: 43px;
+				font-size: 35px;
+				line-height: 35px;
+			}
+			h2 {
+				margin-top: 20px;
+			}
+			&_subtitle {
+				font-size: 70px;
+			  }
+		}
+		 
+        /* section2 */
+		.waiting {
+			padding: 63px 20px 37px;
+		}
+	/* section3 */
+		.optimization {
+			min-height: auto;
+			padding: 50px 20px 50px;
+			&_header {
+				margin: 0;
+				text-align: center;
+			}
+			&_text {
+			margin: 50px 0 0;
+			text-align: center;
+			}
+			&_img {
+				display: none;
+			}
+		}
+		/* finish */
+        .finish {
+			min-height: auto;
+			padding: 66px 20px 59px;
+		}
+		/* gift  */
+		.gift {
+			min-height: auto;
+			padding: 66px 20px;
+			
+		  }
+
+		  /* webinar */
+		  .webinar {
+			min-height: 515px;
+			padding: 69px 0 34px;
+		  }
+		  
+	}
+
+}
+   
+@media (max-width: 767px) {
+
+	.page {
+
+		/* finish */
+		.finish {
+			&_wrapper {
+				justify-content: center;
+			}
+			&_item {
+				margin-top: 10px;
+				width: 33%;
+			  }
+		}
+	}
+}
+   
+@media (max-width: 640px) {
+
+	.page {
+		/* waiting */
+		.waiting {
+			&_wrapper {
+				margin-top: 45px;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			  }
+			
+			  &_item {
+			  margin-top: 20px;
+			  width: 339px;
+			  text-align: center;
+			}
+			&_descr {
+				margin-top: 13px;
+				font-size: 20px;
+			}
+
+		}
+	}
+}
+   
+@media (max-width: 575px) {
+
+	.page {
+
+		.header {
+			padding: 29px 10px 52px;
+			&_title {
+				margin-top: 33px;
+				font-size: 25px;
+			}
+			h2 {
+				margin-top: 20px;
+			}
+			&_subtitle {
+				font-size: 50px;
+			}
+			&_text {
+				font-size: 18px;
+				line-height: 28px;
+			}
+		}
+		.more {
+			margin-top: 53px;
+		}
+		/* waiting */
+		.waiting {
+			&_wrapper {
+				margin-top: 25px;
+			  }
+			
+			  &_item {
+			  width: 100%;
+			}
+
+		}
+
+		/* finish */
+		.finish {
+			&_header {
+				font-size: 25px;
+			}
+			&_wrapper {
+				justify-content: center;
+			}
+			&_item {
+				margin-top: 10px;
+				width: 50%;
+			  }
+		}
+		.gift {
+			min-height: auto;
+			padding: 56px 0;
+			&_logo_text {
+			  margin-top: 48px;
+			  font-size: 25px;
+			  line-height: 33px;
+			}
+		}
+		.webinar {
+			min-height: auto;
+			padding: 69px 0 54px;
+		  
+			&_title {
+			  margin-top: 40px;
+			  font-size: 25px;
+			}
+		  
+			&_big_title {
+			  margin-top: 18px;
+			  font-size: 32px;
+			}
+		  
+			&_sub_title {
+			  margin-top: 18px;
+			  font-size: 23px;
+			 
+			}
+			&_logo_img {
+				width: 80%;
+			  }
+		  }
+
+		  .footer {
+			min-height: auto;
+			padding: 30px 0 50px;
+		  
+			&_wrapper {
+			  display: flex;
+			  flex-direction: column;
+			}
+			&_item {
+				text-align: center;
+				margin-top: 10px;
+				&:nth-child(2) {
+					display: none;
+				}
+			}
+			&_tel {
+				margin-top: 10px;
+			}
+		  }
+		.btn {
+			margin-top: 53px;
+			width: auto;
+			height: auto;
+			padding: 15px 20px;
+			font-size: 15px;
+		}	 
+		.modal {
+			&__close {
+				color: #000;
+				font-size: 50px;
+				top: 15px;
+				right: 15px;
+			}
+		}
+	}
+}
+   

@@ -1,0 +1,35 @@
+.webinar {
+    min-height: 515px;
+    padding: 89px 0 54px;
+  
+    &_title {
+      margin-top: 40px;
+      font-size: 30px;
+      color: rgb(37, 37, 37);
+      text-transform: uppercase;
+      text-align: center;
+    }
+  
+    &_big_title {
+      margin-top: 18px;
+      font-size: 36px;
+      color: rgb(41, 156, 189);
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: 800;
+    }
+  
+    &_sub_title {
+      margin-top: 18px;
+      font-size: 23px;
+      font-family: 'Roboto';
+      color: rgb(74, 74, 74);
+      text-align: center;
+      font-weight: 400;
+	}
+	&_logo_img {
+		display: block;
+		margin: 0 auto;
+	  }
+  }
+  

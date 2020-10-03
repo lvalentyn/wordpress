@@ -1,0 +1,14 @@
+.logo {
+    &_img {
+      display: block;
+      margin: 0 auto;
+    }
+    &_text {
+      color: rgb(255, 255, 255);
+      font-size: 15px;
+      line-height: 24px;
+      text-transform: uppercase;
+      text-align: center;
+      margin-top: 14px;
+    }
+  }

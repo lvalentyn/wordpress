@@ -1,0 +1,30 @@
+.optimization {
+    min-height: 550px;
+    padding: 102px 0 107px;
+  
+    &_header {
+      margin-left: 391px;
+      font-size: 30px;
+      color: rgb(41, 156, 189);
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+  
+    &_text {
+      margin-top: 25px;
+      margin-left: 391px;
+      font-size: 17px;
+      color: rgb(74, 74, 74);
+      line-height: 22px;
+  
+      span {
+        font-weight: 700;
+      }
+    }
+    &_img {
+      position: absolute;
+      bottom: -107px;
+      left: -240px;
+      z-index: -1;
+    }
+  }

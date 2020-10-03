@@ -1,2 +1,0 @@
-# simplePage
-first readMe
